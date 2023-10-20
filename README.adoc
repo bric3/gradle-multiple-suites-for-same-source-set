@@ -1,0 +1,6 @@
+= MCVE: Declaring JvmTestSuite targets with different engines?
+
+https://discuss.gradle.org/t/declaring-jvmtestsuite-targets-with-different-engines/46678[Gradle discussion]
+
+Reason: https://youtrack.jetbrains.com/issue/IDEA-333958/Fails-to-run-JUnit-4-and-JUnit-5-mixed-tests-suite-for-plugin-RuntimeException-Cant-initialize-filesystem-storage[IDEA-333958: Fails to run JUnit 4 and JUnit 5 mixed tests suite for plugin: `RuntimeException: Can't initialize filesystem storage`]
+
