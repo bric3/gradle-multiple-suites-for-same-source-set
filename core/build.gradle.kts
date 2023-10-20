@@ -3,7 +3,7 @@ import org.gradle.api.tasks.testing.logging.TestLogEvent
 
 plugins {
     id("org.jetbrains.kotlin.jvm") version "1.9.10"
-    id("org.jetbrains.intellij") version "1.15.0"
+    id("org.jetbrains.intellij") version "1.16.0"
     id("jvm-test-suite")
 }
 
@@ -97,7 +97,7 @@ testing {
         }
 
         withType<JvmTestSuite>().configureEach {
-            // useJUnitJupiter(libs.versions.junit.jupiter.get())
+            useJUnitJupiter(libs.versions.junit.jupiter.get())
 
             dependencies {
                 implementation.bundle(libs.bundles.assertj)
